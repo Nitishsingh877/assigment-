@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.container {
+    display: flex;
+    gap: 200px;
+    padding: 30px;
+}
+.container ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+.container ul li {
+    font-size: 20px;
+    font-weight: 800;
+}
+.container img {
+    position: relative;
+    height: 30px;
+}
+.righthead {
+    display: flex;
+    margin-left: 100px;
+
+}
+.buutone {
+    margin-left: 50px;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border-style: double;
+    font-weight: 800;
+    background-color: #fff;
+}
+.buutwo {
+    margin-left: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border-style: double;
+    font-weight: 800;
+    background-color: yellow;
+}
+
+.left-sect {
+   display: flex;
+   flex-direction: column;
+   padding: 150px;
+   margin-left: 150px;
+   margin-top: -70px;
+}
+.left-sect h1 {
+   font-size: 40px;
+} 
+.left-sect p {
+    font-size: 16px;
+}
+.left-sect button {
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: yellow;
+    font-weight: 500;
+}
+.right-sect {
+    display: flex;
+    justify-content: right;
+    margin-top:-450px;
+    height: 450px;
+}
+.right-sect button {
+    position: absolute;
+    margin-top: 230px;
+    height: 100px;
+    width: 30px;
+    font-size: 10px;    
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.foot button {
+    margin-left: 150px;
+    width: 120px;
+    height: 30px;
+    margin-top: -7px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid white;
+    font-weight: 600;
+}
